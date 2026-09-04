@@ -60,4 +60,4 @@ docker run -p 8000:8000 voice-api
 
 ## License
 
-Add a license if you plan to share this publicly as a portfolio.
+This project is licensed under the [GNU GPLv3 License](LICENSE).
