@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Project-specific: generated audio output
+temp/*
+!temp/.gitkeep
+
+# Pretrained model caches (HuBERT/ECAPA-TDNN/HiFi-GAN weights, if downloaded locally)
+*.pt
+*.pth
+*.ckpt
+models_cache/
+.cache/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
